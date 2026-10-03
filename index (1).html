@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> BILAL CLOTHES STORE </title>
+  <meta name="description" content="Shop modern clothing for women and men. New arrivals, bestsellers and seasonal offers with free delivery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+
+<!-- Shared icon: a simple shirt used as product artwork -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="shirt" viewBox="0 0 100 100"><path d="M35 12 10 28l9 16 9-5v49h44V39l9 5 9-16-25-16c-3 8-9 12-15 12s-12-4-15-12z" fill="currentColor"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<div class="topbar">Free delivery on orders over $75 &nbsp;|&nbsp; Easy 30-day returns</div>
+
+<header class="header" id="header">
+  <div class="container header-inner">
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a class="logo" href="#top" aria-label="Indigo and Violet home">Indigo<b>&amp;</b>Violet</a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#top" class="active">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#products">New In</a>
+      <a href="#offer">Sale</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Cart, 2 items">
+        <svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="count">2</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= BODY ================= -->
+<main id="main">
+  <span id="top"></span>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="kicker">Autumn collection 2026</p>
+        <h1>Colour that moves with you</h1>
+        <p class="lead">Soft tailoring, easy layers and bold blues and violets for everyday wear. Made to fit, built to last.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#products">Shop new arrivals</a>
+          <a class="btn btn-light" href="#categories">Browse categories</a>
+        </div>
+        <ul class="stats">
+          <li><b>12k+</b> happy customers</li>
+          <li><b>4.8</b> average rating</li>
+          <li><b>30 days</b> free returns</li>
+        </ul>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a violet shirt on a blue backdrop">
+        <div class="blob"></div>
+        <svg class="hero-shirt"><use href="#shirt"/></svg>
+        <span class="chip chip-a">New season</span>
+        <span class="chip chip-b">-25% today</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="head"><h2>Shop by category</h2><a class="link" href="#products">See everything</a></div>
+      <div class="cats">
+        <a class="cat c1" href="#products"><svg><use href="#shirt"/></svg><span>Women</span></a>
+        <a class="cat c2" href="#products"><svg><use href="#shirt"/></svg><span>Men</span></a>
+        <a class="cat c3" href="#products"><svg><use href="#shirt"/></svg><span>Kids</span></a>
+        <a class="cat c4" href="#products"><svg><use href="#shirt"/></svg><span>Outerwear</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="section alt" id="products">
+    <div class="container">
+      <div class="head"><h2>New arrivals</h2><a class="link" href="#offer">View sale</a></div>
+      <div class="products">
+
+        <article class="product">
+          <div class="thumb t1"><span class="badge">-20%</span><svg><use href="#shirt"/></svg></div>
+          <div class="info"><span class="muted">Women's tops</span><h3>Violet Oversized Shirt</h3>
+            <p class="price"><b>$48</b> <s>$60</s></p><button class="btn btn-primary btn-sm">Add to cart</button></div>
+        </article>
+
+        <article class="product">
+          <div class="thumb t2"><span class="badge new">New</span><svg><use href="#shirt"/></svg></div>
+          <div class="info"><span class="muted">Men's tops</span><h3>Royal Blue Linen Tee</h3>
+            <p class="price"><b>$36</b></p><button class="btn btn-primary btn-sm">Add to cart</button></div>
+        </article>
+
+        <article class="product">
+          <div class="thumb t3"><svg><use href="#shirt"/></svg></div>
+          <div class="info"><span class="muted">Women's tops</span><h3>Lavender Knit Top</h3>
+            <p class="price"><b>$54</b></p><button class="btn btn-primary btn-sm">Add to cart</button></div>
+        </article>
+
+        <article class="product">
+          <div class="thumb t4"><span class="badge">-15%</span><svg><use href="#shirt"/></svg></div>
+          <div class="info"><span class="muted">Men's shirts</span><h3>Midnight Button-Down</h3>
+            <p class="price"><b>$59</b> <s>$69</s></p><button class="btn btn-primary btn-sm">Add to cart</button></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer banner -->
+  <section class="section" id="offer">
+    <div class="container">
+      <div class="offer">
+        <div>
+          <h2>Season sale: up to 40% off</h2>
+          <p>Selected knitwear, shirts and jackets are reduced until Sunday.</p>
+        </div>
+        <a class="btn btn-light" href="#products">Shop the sale</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section alt">
+    <div class="container perks">
+      <div><h3>Free delivery</h3><p>On every order over $75.</p></div>
+      <div><h3>Easy returns</h3><p>30 days, no questions asked.</p></div>
+      <div><h3>Secure checkout</h3><p>Protected card and wallet payments.</p></div>
+      <div><h3>Real support</h3><p>Reply within one working day.</p></div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" id="contact">
+  <div class="container footer-grid">
+    <div class="f-brand">
+      <a class="logo" href="#top">Indigo<b>&amp;</b>Violet</a>
+      <p>Modern everyday clothing in confident colour, designed for comfort and made to last.</p>
+      <div class="social">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+        <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">P</a>
+        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TT</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Shop</h4>
+      <ul><li><a href="#categories">Women</a></li><li><a href="#categories">Men</a></li><li><a href="#products">New arrivals</a></li><li><a href="#offer">Sale</a></li></ul>
+    </div>
+
+    <div>
+      <h4>Help</h4>
+      <ul><li><a href="#contact">Shipping</a></li><li><a href="#contact">Returns</a></li><li><a href="#contact">Size guide</a></li><li><a href="#contact">FAQ</a></li></ul>
+    </div>
+
+    <div>
+      <h4>Stay in touch</h4>
+      <p class="small">hello@indigoviolet.example<br>+1 (555) 013-2468<br>Mon–Sat, 9am–6pm</p>
+      <form class="news" id="newsForm" novalidate>
+        <label class="sr" for="email">Email address</label>
+        <input id="email" type="email" placeholder="Your email" autocomplete="email">
+        <button class="btn btn-primary btn-sm" type="submit">Join</button>
+        <p class="msg" id="msg" role="status"></p>
+      </form>
+    </div>
+  </div>
+  <div class="container copy">© 2026 Indigo&amp;Violet. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
